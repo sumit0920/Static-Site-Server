@@ -120,9 +120,6 @@ Contributions are welcome!
 4. Push to the branch (git push origin feature/new-feature).
 5. Open a Pull Request.
 
-# License
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute this project as per the license terms.
 
 Author: Sumit Sharma
 Contact: sumitsharma.aset@gmail.com
