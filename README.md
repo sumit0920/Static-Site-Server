@@ -90,9 +90,20 @@ sudo systemctl reload nginx
 ```
 Deployment
 1. Create a deployment script (deploy.sh) on local machine
+
+      <img width="622" height="287" alt="Screenshot 2025-08-27 084648" src="https://github.com/user-attachments/assets/561a4eb6-cc6c-49a4-94d4-98e57f4eca03" />
+
+
+   <img width="1762" height="522" alt="Screenshot 2025-08-27 085546" src="https://github.com/user-attachments/assets/983ea730-6aec-4db1-8311-b71d92dc495b" />
+
 ```
 chmod +x deploy.sh
 ```
+
+
+   <img width="912" height="449" alt="Screenshot 2025-08-27 085851" src="https://github.com/user-attachments/assets/52b1228d-021f-4d5b-a793-78d88b0bb972" />
+
+
 2. Deploy changes
 Whenever you update local files:
 ./deploy.sh
@@ -104,6 +115,9 @@ sudo yum install certbot python3-certbot-nginx -y
 sudo certbot --nginx -d your-domain.com -d www.your-domain.com
 ```
 Certificates auto-renew via systemd or cron jobs.
+
+
+<img width="890" height="92" alt="Screenshot 2025-08-27 084400" src="https://github.com/user-attachments/assets/45b70cc9-d68c-4a33-b300-0cb15d1d0129" />
 
 # Folder Structure
 ```
@@ -117,6 +131,9 @@ project-root/
 ├── deploy.sh
 └── README.md
 ```
+# Output
+<img width="1451" height="791" alt="Screenshot 2025-08-27 084327" src="https://github.com/user-attachments/assets/74ad6b94-73b1-44b5-971d-b02605580fd8" />
+
 # Contributing
 Contributions are welcome!
 1. Fork the repository.
