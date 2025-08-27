@@ -2,6 +2,11 @@
 
 This project demonstrates how to deploy a simple static website (HTML/CSS/images) on an **Amazon Linux EC2 instance** using **Nginx** and **Rsync** for updates. It also covers optional SSL setup using **Certbot**.
 
+# Project URL:
+```
+https://roadmap.sh/projects/static-site-server
+
+```
 ---
 
 ## Project Overview
